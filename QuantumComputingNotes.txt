@@ -1,4 +1,14 @@
-===============
-1. https://qiskit.org/aqua/
-2. https://learnqiskit.gitbook.io/developers/
-3. https://w3.ibm.com/w3publisher/behind-the-news/quantum-volume-milestone
+Expirements: facts of life says:
+===========================
+
+E = hf
+and lambda = h/p
+
+Ψ(x,t) is a wave function which can completely describe state of such particle
+
+and the probability density of a particle can be obtained with the square of
+such function, which is multiplication of itself with its complex conjugate.
+=========================
+
+Hadamard Transform in classical takes nlogn (where n = 2^m) while in QC it is a
+gate and so it is O(1)
