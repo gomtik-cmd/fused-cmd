@@ -1,14 +1,21 @@
-Expirements: facts of life says:
-===========================
+shor's algorithm
+deutsch oracle problem
+https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm
+QC only uses reversible functions
++ it uses only those Operations where; Inpu1 Op Op = Input1
+tensor product of vectors
+hence:
+|00> = (1/0) x (1/0) = (1/0/0/0)
+lly,
+|4> = |100> = (0/0/0/0/1/0/0/0)
+see how bits in vector grows exponentialy (gist of QC:-))
 
-E = hf
-and lambda = h/p
+Control NOT, CNOT:
 
-Ψ(x,t) is a wave function which can completely describe state of such particle
+Superposition, aka "I have no idea what's going on":
+https://youtu.be/lZ3bPUKo5zc?t=4351
 
-and the probability density of a particle can be obtained with the square of
-such function, which is multiplication of itself with its complex conjugate.
-=========================
+MIT course on Quantum Physics:
+https://ocw.mit.edu/courses/physics/8-04-quantum-physics-i-spring-2013/lecture-videos/
 
-Hadamard Transform in classical takes nlogn (where n = 2^m) while in QC it is a
-gate and so it is O(1)
+qubit coherence problem
