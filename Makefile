@@ -3,12 +3,10 @@ install:
 	pip3 install opencv-python
 	pip3 install face_recognition
 	mkdir -p $(HOME)/.config/autostart
-	mkdir -p $(HOME)/.face-authenticator/authorized
-	cp authenticate.py $(HOME)/.face-authenticator/authenticate.py
-	cp start.sh $(HOME)/.face-authenticator/start.sh
-	chmod +x $(HOME)/.face-authenticator/start.sh
-	envsubst < face-authenticator.desktop > $(HOME)/.config/autostart/face-authenticator.desktop 
-	chmod +x $(HOME)/.config/autostart/face-authenticator.desktop 
+	mkdir -p $(HOME)/.fa/authorized
+	cp authenticate.py $(HOME)/.fa/authenticate.py
+	envsubst < fa.desktop > $(HOME)/.config/autostart/fa.desktop 
+	chmod +x $(HOME)/.config/autostart/fa.desktop 
 
 authorize:
-	cp $(image) $(HOME)/.face-authenticator/authorized/admin.jpg
+	cp $(image) $(HOME)/.fa/authorized/admin.jpg
