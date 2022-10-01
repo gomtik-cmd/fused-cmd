@@ -1,3 +1,8 @@
+Things to learn Quantum Computing:
+- Deutsch-Jozsa Algorithm
+- https://qiskit.org/textbook/ch-algorithms/deutsch-jozsa.html
+- Qubits and Quantum gates
+
 Expirements: facts of life says:
 ===========================
 
