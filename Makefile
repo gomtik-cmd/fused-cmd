@@ -1,7 +1,7 @@
 install:
 	sudo apt install gnome-screensaver python3 python3-pip cmake
-	pip3 install opencv-python
-	pip3 install face_recognition
+	python-pip3 install opencv-python
+	python-pip3 install face_recognition
 	mkdir -p $(HOME)/.config/autostart
 	mkdir -p $(HOME)/.fa/authorized
 	cp authenticate.py $(HOME)/.fa/authenticate.py
